@@ -142,6 +142,130 @@
   
   sub {
 	bottom: -.25em; }
+ 
+ 
+  .bordbot{
+	  border-bottom:100px;
+	  border-bottom-color: red;
+  }
+  
+  .textcar{
+	  background-image: linear-gradient(to right, #183c56, #183c56);
+  }
+  
+  .navone{
+	  font-size:150%;
+  }
+  
+  .navtwo{
+	  font-size:150%;
+  }
+  
+  .navtwo:hover{
+	  font-size: 200%;
+      margin-top:-1%;
+	  margin-left:-0.8%;
+	  margin-right:-2%;
+	  margin-bottom: -5%;
+  }
+  
+  .navone:hover{
+	  font-size: 200%;
+      margin-top:-1%;
+	  margin-left:-3%;
+	  margin-right:-2%;
+	  margin-bottom: -5%;
+  }
+  
+  .whyasme{
+	  font-size: 450%;
+	  font-family: "Segoe UI";
+  }
+  
+  .introduction{
+	  font-size: 200%;
+	  color: white;
+  }
+  
+  .tox{
+	  height:800px !important;
+	  width:104% !important;
+	  margin-left: -2%;
+  }
+  
+  .bot{
+	  background-image:linear-gradient(to right, #02b3cf, #107eaf);
+	  height: 6%;
+	  width: 100%;
+
+  }
+  
+  .navbg{
+	  background-image:linear-gradient(to right, #107eaf, #02b3cf);
+	  border-top-width: 1000px; 
+	  
+  }
+  
+  .Named{
+	  color:#00bcd4;
+	  font-size: 350%;
+	  margin-left: -9%;
+	  font-family: 'Zilla Slab' , sans-serif;
+  }
+  
+  .cont{
+	 background-color: black;
+	 font-family: "Open Sans","Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  .ourdomain{
+	  color: #183c56;
+	  font-size: 450%;
+	  font-family: "Segoe UI";
+  }
+	  
+  .carddomains{
+	  margin-top: 5%;
+	  max-width: 30%;
+	  max-height:100%;
+  }
+  
+  .carddomains2{
+	  margin-top: 4%;
+	  max-width: 38%;
+	  max-height:100%;
+  }
+  
+  .news{
+	  font-size: 300%;
+	  color:#183c56;
+	  font-family: "Segoe UI";
+	  padding-bottom: 7%;
+  }
+  
+  .content{
+	  height:285px;
+  }
+  
+  .footbg{
+		background-image:linear-gradient(to right, #02b3cf, #107eaf);
+  }
+  
+  .foothead{
+	  font-size: 300%;
+	  color:#183c56;
+	  font-family: "Segoe UI";
+	  padding-top: 1%;
+	  padding-bottom: 1%;
+  }
+  .footarea{
+	  background-image:linear-gradient(to right, #00bcd4, #71d199);
+  }
+  
+  .reach{
+	  font-family: "Segoe UI";
+	  color:#183c56;
+  }
   
   sup {
 	top: -.5em; }
