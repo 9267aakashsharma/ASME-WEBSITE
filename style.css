@@ -414,7 +414,32 @@
 	  margin-right:-1.4%;
 	  margin-bottom: -5%;
   }
-	  
+  
+  .faculty-style{
+	  width:90%; 
+	  height:100%;
+  }
+  
+  .faculty-img{
+	  max-height: 200px;
+	  max-width: 200px;
+	  margin-left:20%;
+	  border: solid;
+      border-radius: 300px;
+	  border-color: #00bcd4;
+	  margin-top:20px;
+  }
+  
+  .faculty-img2{
+	  max-height: 200px;
+	  max-width: 200px;
+	  margin-left:25%;
+	  border: solid;
+      border-radius: 300px;
+	  border-color: #00bcd4;
+	  margin-top:20px;
+  }
+  
 
 
 
