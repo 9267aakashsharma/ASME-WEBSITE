@@ -52,5 +52,62 @@ function getHorizontalPadding(elem)
     return padding;
 }
 
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+var dropdown1 = document.getElementById("drops1");
+var button1 = document.getElementById("button-drop1");
+
+button1.onclick = function(){
+	if(dropdown1.getAttribute("src") == "Photos/DDsmall.png"){
+		dropdown1.setAttribute("src", "Photos/LUsmall.png");
+	}
+	else{
+		dropdown1.setAttribute("src", "Photos/DDsmall.png");
+	}
+		
+};
+
+var dropdown2 = document.getElementById("drops2");
+var button2 = document.getElementById("button-drop2");
+
+button2.onclick = function(){
+	if(dropdown2.getAttribute("src") == "Photos/DDsmall.png"){
+		dropdown2.setAttribute("src", "Photos/LUsmall.png");
+	}
+	else{
+		dropdown2.setAttribute("src", "Photos/DDsmall.png");
+	}
+		
+};
+
+var dropdown3 = document.getElementById("drops3");
+var button3 = document.getElementById("button-drop3");
+
+button3.onclick = function(){
+	if(dropdown3.getAttribute("src") == "Photos/DDsmall.png"){
+		dropdown3.setAttribute("src", "Photos/LUsmall.png");
+	}
+	else{
+		dropdown3.setAttribute("src", "Photos/DDsmall.png");
+	}
+		
+};
+
+var dropdown4 = document.getElementById("drops4");
+var button4 = document.getElementById("button-drop4");
+
+button4.onclick = function(){
+	if(dropdown4.getAttribute("src") == "Photos/DDsmall.png"){
+		dropdown4.setAttribute("src", "Photos/LUsmall.png");
+	}
+	else{
+		dropdown4.setAttribute("src", "Photos/DDsmall.png");
+	}
+		
+};
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
 $(window).load(scaleGallery);
 $(window).resize(scaleGallery);
