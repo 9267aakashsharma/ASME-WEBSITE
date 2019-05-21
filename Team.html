@@ -27,18 +27,31 @@
 	
 	
 	<nav class="navbg navbar-expand-lg navbar-dark container-fluid sticky-top">                     
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse container-fluid" id="navbarNavAltMarkup">
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
 				<a class="nav-item nav-link navfour" href="index.html">Home <span class="sr-only">(current)</span></a> &nbsp &nbsp &nbsp &nbsp
 				<a class="nav-item nav-link navtwo" href="Events.html">Events</a>&nbsp &nbsp &nbsp &nbsp
 				<a class="nav-item nav-link navtwo" href="Gallery.html">Gallery</a>&nbsp &nbsp &nbsp &nbsp
 				<a class="nav-item nav-link navone" href="#">Sponsorship</a>&nbsp &nbsp &nbsp &nbsp
-				<a class="nav-item nav-link navone" href="#">Shop ASME</a>&nbsp &nbsp &nbsp &nbsp
-				<a class="nav-item nav-link navthree" href="#">About</a>&nbsp &nbsp &nbsp &nbsp
-				<a class="nav-item nav-link active navfour" href="Team.html">Team</a>&nbsp &nbsp
+				<div class="dropdown nav-box">
+					  <a class="btn nav-item nav-link navfive dropdown-toggle text-left" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Shop ASME
+					  </a>
+
+					  <div class="dropdown-menu nav-dropping" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="https://www.asme.org/shop/standards">Standards</a>
+						<a class="dropdown-item" href="https://www.asme.org/shop/certification-accreditation">Certifications</a> 
+					    <a class="dropdown-item" href="https://www.asme.org/shop/courses">Courses</a>     
+					    <a class="dropdown-item" href="https://www.asme.org/shop/journals">Journals</a>     
+					    <a class="dropdown-item" href="https://www.asme.org/shop/proceedings">Proceeding</a>  
+					    <a class="dropdown-item" href="https://www.asme.org/shop/books">Books</a>  
+			 		    <a class="dropdown-item" href="https://www.asme.org/shop">Shop All</a> 
+			 		    <a class="dropdown-item" href="https://shop.asme.org/ShoppingCart.cfm?_ga=2.211745493.1114360136.1534516983-1805675306.1534516983">Shop Carts</a>
+					  </div>
+				</div>&nbsp &nbsp &nbsp &nbsp<a class="nav-item nav-link active navfour" href="Team.html">Team</a>&nbsp &nbsp
 				<!--<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
 			</div>
 		</div>

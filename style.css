@@ -159,6 +159,26 @@
 	  font-size:150%;
   }
   
+  .navfive{
+	  font-size:150%;
+  }
+  
+  .navfive:hover{
+	  font-size: 150%;
+     
+	  margin-left:-2%;
+	  margin-right:-2.2%;
+	  margin-bottom: -1%;
+  }
+  
+  .nav-box:hover{
+	  margin-right:-3%;
+	  margin-left:-1.5%;
+	  font-size:130%;
+	  margin-top:-1%;
+	  transition-duration: 0.2s;
+  }
+	  
   .navtwo{
 	  font-size:150%;
   }
@@ -177,6 +197,12 @@
 	  margin-left:-2.4%;
 	  margin-right:-2.2%;
 	  margin-bottom: -5%;
+  }
+  
+  .nav-dropping{
+	  background-image:linear-gradient(to right, #02b3cf, transparent);
+	  border:none;
+	  width:100%;
   }
   
   .whyasme{
