@@ -59,6 +59,7 @@
   body {
 	margin: 0px;
 	padding: 0px;
+	padding-top: 160px;
 	font-family: "Open Sans","Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: 1rem;
 	font-weight: 400;
@@ -178,7 +179,10 @@
 	  margin-right:-2.2%;
 	  margin-bottom: -5%;
   }
-  
+  .SRMlogo img{
+  	height: 100px !important;
+  	width: 150px !important;
+  }
   .whyasme{
 	  font-size: 450%;
 	  font-family: "Segoe UI";
@@ -211,7 +215,7 @@
   
   .Named{
 	  color:#00bcd4;
-	  font-size: 350%;
+	  font-size: 250%;
 	  margin-left: -9%;
 	  font-family: 'Zilla Slab' , sans-serif;
   }
