@@ -56,24 +56,46 @@ function getHorizontalPadding(elem)
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+//For the Tech team pull-down/pull-up button on team page
 var dropdown1 = document.getElementById("drops1");
+var collapper1 = document.getElementById("collapseFour");
 var button1 = document.getElementById("button-drop1");
 
+
+//For the Core team pull-down/pull-up button on team page
+var dropdown2 = document.getElementById("drops2");
+var collapper2 = document.getElementById("collapseThree");
+var button2 = document.getElementById("button-drop2");
+
+
+//For the Lead team pull-down/pull-up button on team page
+var dropdown3 = document.getElementById("drops3");
+var collapper3 = document.getElementById("collapseTwo");
+var button3 = document.getElementById("button-drop3");
+
+
+//For the Faculty team pull-down/pull-up button on team page
+var dropdown4 = document.getElementById("drops4");
+var collapper4 = document.getElementById("collapseOne");
+var button4 = document.getElementById("button-drop4");
+
+
+
+//For the Tech team pull-down/pull-up button on team page
 button1.onclick = function(){
-	if(dropdown1.getAttribute("src") == "Photos/DDsmall.png"){
+	if(collapper1.getAttribute("class") == "collapse"){
 		dropdown1.setAttribute("src", "Photos/LUsmall.png");
 	}
 	else{
 		dropdown1.setAttribute("src", "Photos/DDsmall.png");
 	}
-		
 };
 
-var dropdown2 = document.getElementById("drops2");
-var button2 = document.getElementById("button-drop2");
 
+
+//For the Core team pull-down/pull-up button on team page
 button2.onclick = function(){
-	if(dropdown2.getAttribute("src") == "Photos/DDsmall.png"){
+	if(collapper2.getAttribute("class") == "collapse"){
 		dropdown2.setAttribute("src", "Photos/LUsmall.png");
 	}
 	else{
@@ -82,24 +104,23 @@ button2.onclick = function(){
 		
 };
 
-var dropdown3 = document.getElementById("drops3");
-var button3 = document.getElementById("button-drop3");
 
+
+//For the Lead team pull-down/pull-up button on team page
 button3.onclick = function(){
-	if(dropdown3.getAttribute("src") == "Photos/DDsmall.png"){
+	if(collapper3.getAttribute("class") == "collapse"){
 		dropdown3.setAttribute("src", "Photos/LUsmall.png");
 	}
 	else{
 		dropdown3.setAttribute("src", "Photos/DDsmall.png");
-	}
-		
+	}	
 };
 
-var dropdown4 = document.getElementById("drops4");
-var button4 = document.getElementById("button-drop4");
 
+
+//For the Faculty team pull-down/pull-up button on team page
 button4.onclick = function(){
-	if(dropdown4.getAttribute("src") == "Photos/DDsmall.png"){
+	if(collapper4.getAttribute("class") == "collapse"){
 		dropdown4.setAttribute("src", "Photos/LUsmall.png");
 	}
 	else{
@@ -107,6 +128,35 @@ button4.onclick = function(){
 	}
 		
 };
+
+
+
+/*
+for(i=0; i<buttu.length; i++){
+	var buttu = document.getElementsByClassName("buttu");
+var driip;
+var cpy;
+	
+	
+	cpy = buttu[i].getElementsByClassName("driip");
+		driip = cpy[0].getAttribute('src');
+		
+
+	buttu[i].onclick = function(){
+		
+		if(driip == "Photos/DDsmall.png"){
+			cpy[0].setAttribute("src", "Photos/LUsmall.png");
+		}
+		else{
+			cpy[0].setAttribute("src", "Photos/DDsmall.png");
+		}
+		
+		console.log(driip);
+		
+	};
+}*/
+
+
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
 $(window).load(scaleGallery);

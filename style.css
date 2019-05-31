@@ -151,6 +151,102 @@
 	  border-bottom-color: red;
   }
   
+  .mb-bg{
+	  background-image:linear-gradient(to bottom, #183c56, #183c56, transparent);
+	  background-size: cover;
+	  background-attachment: fixed;
+  }
+  
+  .Named2-mb{
+	  color:#00bcd4;
+	  font-size: 200%;
+	  font-family: 'Zilla Slab' , sans-serif;
+	  
+  }
+  
+  .carousel-mb-bg{
+	  background-image:linear-gradient(to right, #107eaf, #02b3cf);
+	  height:180px;
+	  margin-bottom: 100%;
+  }
+  
+  .carousel-mb-bg2{
+	  background-image:linear-gradient(to bottom, #107eaf 50%, #02b3cf );
+	  background-size: cover;
+	  background-attachment: fixed;
+	  height:180%;
+	  margin-top: 30%;
+  }
+  
+  .carousel-mb-heading{
+	  position: absolute;
+	  color: #107eaf;
+	  left:25%;
+	  top:41%;
+	  font-family: 'Zilla Slab' , sans-serif;
+  }
+  
+  .carousel-mb-heading2{
+	  color: white;
+	  background-color: #107eaf;
+	  font-family: 'Zilla Slab' , sans-serif;
+	  width: 80%;
+	  margin-top:15%;
+	  margin-left:10%;
+	  font-weight:999;
+  }
+  
+  .carousel-mb-content{
+	  background-image: url("Photos/Home Carousel/ASME 2.jpg");
+	  background-size: cover;
+	  margin-top:-50%;
+	  margin-bottom:50%;
+	  margin-left:-25%;
+	  margin-right:-20%;
+	  width:129%; height:180%;
+	  filter: blur(8px);
+      -webkit-filter: blur(8px);
+	}
+	
+	.carousel-mb-text{
+		position: absolute;
+		margin-top:-116%;
+		left:;
+		top:;
+		font-size:130%;
+		color: #fff; 
+		font-family: 'Zilla Slab' , sans-serif;
+		font-weight:999;
+	}
+  
+  .footer-mb{
+	  background-image: url("Photos/sq4s.jpg");
+	  background-size: cover;
+	  background-attachment: fixed;
+	  background-position: left top;
+	  height:110%
+  }
+  
+  .footer-head1-mb{
+	  font-size: 210%;
+	  color: white;
+	  font-weight:999;
+	  font-family:  'Zilla Slab' , sans-serif;
+  }
+  
+  .footer-head2-mb{
+	  font-size: 200%;
+	  color: white;
+	  font-weight:999;
+	  font-family:  'Zilla Slab' , sans-serif;
+  }
+  
+  .footer-content-mb{
+	  font-size: 125%;
+	  color: white;
+	  font-family:  'Zilla Slab' , sans-serif;
+  }
+  
   .textcar{
 	  background-color: #183c56;
   }
@@ -203,6 +299,12 @@
 	  background-image:linear-gradient(to right, #02b3cf, transparent);
 	  border:none;
 	  width:100%;
+  }
+  
+  .bgh{
+	  background-image: url("Photos/Gallerybg2.png");
+	  background-size: cover;
+	  background-attachment: fixed;
   }
   
   .whyasme{
@@ -494,6 +596,7 @@
 	  height:100%;
 	  transform-style: preserve-3d;
 	  transition: all 1s ease;
+	  
   }
   
   .the-card:hover{
@@ -501,9 +604,10 @@
   }
   
   .the-front{
-	  position: absolute;
+	  
 	  width:100%;
 	  height:100%;
+	  margin-bottom:20%;
 	  backface-visibilty: hidden;
   }
   
@@ -511,11 +615,101 @@
 	  position: absolute;
 	  width:100%;
 	  height:100%;
+	  margin-bottom:20%;
 	  backface-visibilty: hidden;
 	  background: #e9ecef;
 	  transform: rotateY(180deg);
   }
+  
+  .gallery-gear1{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:5.5%;
+	  top:18%;
+  }
+  .gallery-mb-gear1{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:-6%;
+	  top:2.5%;
+  }
+  
+  .gallery-gear2{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:11%;
+	  top:11.5%;
+  }
+  
+  .gallery-mb-gear2{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:-18%;
+	  top:-4%;
+  }
+  
+  .gallery-gear3{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:-0.5%;
+	  top:5.5%;
+  }
+  
+  .gallery-mb-gear3{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:-13%;
+	  top:8.5%;
+  }
+  
+  .gallery-gear4{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:5.5%;
+	  top:1.5%;
+  }
+  
+  .gallery-mb-gear4{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:-6%;
+	  top:1.5%;
+  }
+  
+  .gallery-rotate{
+		animation: rotation 5s infinite linear;
+  }
 
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+.gallery-rotate-alt{
+		animation: swif 5s infinite linear;
+  }
+
+@-webkit-keyframes swif {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(-359deg);
+		}
+}
+  
 
 
 
