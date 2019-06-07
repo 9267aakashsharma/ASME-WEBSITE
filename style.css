@@ -157,10 +157,32 @@
 	  background-attachment: fixed;
   }
   
+  .mb-bg2{
+	  background-image:linear-gradient(to bottom, #183c56, #183c56, #183c56, transparent);
+	  background-size: cover;
+	  background-attachment: fixed;
+  }
+  
   .Named2-mb{
 	  color:#00bcd4;
 	  font-size: 200%;
 	  font-family: 'Zilla Slab' , sans-serif;
+	  
+  }
+  
+  .Named3-mb{
+	  color:#00bcd4;
+	  font-size: 400%;
+	  font-family:'PT Serif', serif;
+	  font-weight: ;
+	  
+  }
+  
+  .Named4-mb{
+	  color:#00bcd4;
+	  font-size: 500%;
+	  font-family:'PT Serif', serif;
+	  font-weight: ;
 	  
   }
   
@@ -171,7 +193,15 @@
   }
   
   .carousel-mb-bg2{
-	  background-image:linear-gradient(to bottom, #107eaf 50%, #02b3cf );
+	  background-image:linear-gradient(to bottom, #02b3cf 40%, #107eaf);
+	  background-size: cover;
+	  background-attachment: fixed;
+	  height:180%;
+	  margin-top: 30%;
+  }
+  
+  .carousel-mb-bg2{
+	  background-image:linear-gradient(to bottom, #02b3cf 40%, #107eaf);
 	  background-size: cover;
 	  background-attachment: fixed;
 	  height:180%;
@@ -186,6 +216,13 @@
 	  font-family: 'Zilla Slab' , sans-serif;
   }
   
+  .gallery-mb-head{
+	  color: #107eaf;
+	  font-family: 'Zilla Slab' , sans-serif;
+	  font-size: 300%;
+	  font-weight:999;
+  }
+  
   .carousel-mb-heading2{
 	  color: white;
 	  background-color: #107eaf;
@@ -193,6 +230,17 @@
 	  width: 80%;
 	  margin-top:15%;
 	  margin-left:10%;
+	  font-weight:999;
+  }
+  
+  .carousel-mb-heading3{
+	  color: white;
+	  background-color: #107eaf;
+	  font-family: 'Zilla Slab' , sans-serif;
+	  width: 80%;
+	  margin-top:15%;
+	  margin-left:10%;
+	  margin-bottom:-10%;
 	  font-weight:999;
   }
   
@@ -210,8 +258,8 @@
 	
 	.carousel-mb-text{
 		position: absolute;
-		margin-top:-116%;
-		left:;
+		margin-top:-131%;
+		margin-left:-4%;
 		top:;
 		font-size:130%;
 		color: #fff; 
@@ -339,7 +387,7 @@
   
   .Named{
 	  color:#00bcd4;
-	  font-size: 350%;
+	  font-size: 300%;
 	  margin-left: -9%;
 	  font-family: 'Zilla Slab' , sans-serif;
   }
@@ -436,6 +484,13 @@
 	padding-top: 1px;  
   }
   
+  .latest-points2{
+	background: url(Photos/FingerBullet.png) no-repeat 10px top; 
+	height: 54px; 
+	padding-left: 15%; 
+	padding-top: 1px;  
+  }
+  
   .scrollbox{
 	  background-image:linear-gradient(to right, #107eaf, #107eaf);
   }
@@ -498,11 +553,6 @@
 }
   .Elad-Shechter:hover{
 	  text-decoration:none;
-  }
-  
-  .team-drop{
-	  text-decoration: none;
-	  
   }
   
   .team-btn-size{
@@ -632,8 +682,8 @@
 	  position:absolute;
 	  color:White;
 	  font-size:95%;
-	  left:-6%;
-	  top:2.5%;
+	  left:12.5%;
+	  top:0%;
   }
   
   .gallery-gear2{
@@ -648,8 +698,8 @@
 	  position:absolute;
 	  color:White;
 	  font-size:95%;
-	  left:-18%;
-	  top:-4%;
+	  left:-2%;
+	  top:0%;
   }
   
   .gallery-gear3{
@@ -664,8 +714,14 @@
 	  position:absolute;
 	  color:White;
 	  font-size:95%;
-	  left:-13%;
-	  top:8.5%;
+	  left:12.5%;
+	  top:-25%;
+	  
+  }
+  
+  .mb-photos{
+	  height:200px;;
+	  width:100%;
   }
   
   .gallery-gear4{
@@ -673,15 +729,16 @@
 	  color:White;
 	  font-size:95%;
 	  left:5.5%;
-	  top:1.5%;
+	  top:2%;
   }
   
   .gallery-mb-gear4{
 	  position:absolute;
 	  color:White;
 	  font-size:95%;
-	  left:-6%;
-	  top:1.5%;
+	  left:-2%;
+	  top:-25%;
+	  margin-right:;
   }
   
   .gallery-rotate{
@@ -698,6 +755,7 @@
 }
 
 .gallery-rotate-alt{
+		-webkit-transform: rotate(10deg);
 		animation: swif 5s infinite linear;
   }
 
@@ -709,7 +767,117 @@
 				-webkit-transform: rotate(-359deg);
 		}
 }
+
+.gallery{
+	font-size:450%;
+	font-family: 'Zilla Slab' , sans-serif;
+	font-weight: 999;
+	color: #00bcd4;
+	
+}
+
+
+@media (max-width: 600px) {
+  .oldevents-mb{
+	  width:20%; 
+	  margin-left:-15%;
+  }
   
+  .oldevents-text-mb{
+	  font-size:85%;
+  }
+  
+  .oldevents2-text-mb{
+	  font-size:75%;
+  }
+  
+  .event-head{
+	border: solid;
+	border-radius: 100px;
+	border-color: #00bcd4;
+	height: 150px;
+	width: 150px;
+	margin-left:28%;
+	margin-top:20px;
+  }
+  
+  .footer-event{
+      max-height: 80%;
+	  width:109%;
+	  margin-left:-15px;
+	  margin-bottom:-10%;
+  }
+  
+    .faculty-img{
+	  max-height: 150px;
+	  max-width: 150px;
+	  margin-left:23%;
+	  border: solid;
+      border-radius: 300px;
+	  border-color: #00bcd4;
+	  margin-top:20px;
+  }
+  
+  .faculty-img2{
+	  max-height: 150px;
+	  max-width: 150px;
+	  margin-left:25%;
+	  border: solid;
+      border-radius: 300px;
+	  border-color: #00bcd4;
+	  margin-top:20px;
+  }
+  
+    .faculty-style{
+	  width:90%; 
+	  height:100%;
+	  margin-left:5%;
+  }
+  
+    .latest-events{
+	  font-size: 300%;
+  }
+  
+  .mb-photos{
+	  height:80px;
+	  width:100%;
+  }
+  
+  .gallery-mb-head{
+	  color: #107eaf;
+	  font-family: 'Zilla Slab' , sans-serif;
+	  font-size: 180%;
+	  font-weight:999;
+  }
+  
+  .gallery-rotate{
+		animation: rotation 5s infinite linear;
+  }
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+.gallery-rotate-alt{
+		-webkit-transform: rotate(10deg);
+		animation: swif 5s infinite linear;
+  }
+
+@-webkit-keyframes swif {
+		from {
+				-webkit-transform: rotate(10deg);
+		}
+		to {
+				-webkit-transform: rotate(-349deg);
+		}
+}
+
+}
 
 
 
