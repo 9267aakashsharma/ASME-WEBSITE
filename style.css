@@ -244,6 +244,14 @@
 	  margin-bottom: 100%;
   }
   
+  .carousel-bg{
+	  background-image:url('Photos/Home carousel/ASME 1.jpg');
+	  background-size:cover;
+	  background-position: center;
+	  height:100vh;
+	  display: flex;
+  }
+  
   .carousel-mb-bg2{
 	  background-image:linear-gradient(to bottom, #02b3cf 40%, #107eaf);
 	  background-size: cover;
@@ -579,7 +587,8 @@
   
   .reach{
 	  font-family: "Segoe UI";
-	  color:#183c56;
+	  color:white;
+	  font-weight:999;
   }
   
   .latest-events{
@@ -712,8 +721,7 @@
   .navfour:hover{
 	  font-size: 200%;
       margin-top:-1%;
-	  margin-left:-1.0%;
-	  margin-right:-1.4%;
+	  
 	  margin-bottom: -5%;
   }
   
@@ -879,10 +887,12 @@
 }
 
 .gallery{
-	font-size:450%;
-	font-family: 'Zilla Slab' , sans-serif;
+	margin-top:40vh;
+	margin-bottom:13%;
+	font-size:550%;
+	font-family: 'Prompt', sans-serif;
 	font-weight: 999;
-	color: #00bcd4;
+	color: WHITE;
 	
 }
 
