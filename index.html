@@ -5,12 +5,9 @@
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" type="image/png" sizes="32x32" href="Photos/favicon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	
+</head>
 
 <body>
 
@@ -23,6 +20,9 @@
 	 <div class="container-fluid"  style="padding: 0px !important;margin: 0px !important; background-color: white!important; ">
 		<div class="row text-center" style="padding: 0px !important;margin: 0px !important; ">
 			<div class="col col-md-3 SRMlogo">
+    <div class="container-fluid bordbot">
+		<div class="row">
+			<div class="col col-lg-2">
 				<a href="#"><img src="Photos/favicon.png" style="max-width:100%;" alt="ASMESRM"></a>
 			</div>
 			<div class="col col-md-6">
@@ -33,11 +33,17 @@
 				<a href="#"><img src="Photos/SRMlogo.png" alt="SRMIST"></a>
 			</div>
 		</div>
+
 	</div>                    
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	</div>
+	
+	
+	<nav class="navbg navbar navbar-collapse navbar-expand-lg navbar-dark container-fluid sticky-top">                     
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse container-fluid" id="navbarNavAltMarkup">
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
 				<a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
 				<a class="nav-item nav-link" href="Events.html">Events</a>
@@ -46,6 +52,28 @@
 				<a class="nav-item nav-link " href="#">Shop ASME</a>
 				<a class="nav-item nav-link " href="#">About</a>
 				<a class="nav-item nav-link" href="Team.html">Team</a>
+
+				<a class="nav-item nav-link active navfour" href="index.html">Home <span class="sr-only">(current)</span></a> &nbsp &nbsp &nbsp &nbsp
+				<a class="nav-item nav-link navtwo" href="Events.html">Events</a>&nbsp &nbsp &nbsp &nbsp
+				<a class="nav-item nav-link navtwo" href="Gallery.html">Gallery</a>&nbsp &nbsp &nbsp &nbsp
+				<a class="nav-item nav-link navone" href="#">Sponsorship</a>&nbsp &nbsp &nbsp &nbsp
+				<div class="dropdown nav-box">
+					  <a class="btn nav-item nav-link navfive dropdown-toggle text-left" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Shop ASME
+					  </a>
+
+					  <div class="dropdown-menu nav-dropping" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="https://www.asme.org/shop/standards">Standards</a>
+						<a class="dropdown-item" href="https://www.asme.org/shop/certification-accreditation">Certifications</a> 
+					    <a class="dropdown-item" href="https://www.asme.org/shop/courses">Courses</a>     
+					    <a class="dropdown-item" href="https://www.asme.org/shop/journals">Journals</a>     
+					    <a class="dropdown-item" href="https://www.asme.org/shop/proceedings">Proceeding</a>  
+					    <a class="dropdown-item" href="https://www.asme.org/shop/books">Books</a>  
+			 		    <a class="dropdown-item" href="https://www.asme.org/shop">Shop All</a> 
+			 		    <a class="dropdown-item" href="https://shop.asme.org/ShoppingCart.cfm?_ga=2.211745493.1114360136.1534516983-1805675306.1534516983">Shop Carts</a>
+					  </div>
+				</div>&nbsp &nbsp &nbsp &nbsp
+				<a class="nav-item nav-link navfour" href="Team.html">Team</a>&nbsp &nbsp
 				<!--<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
 			</div>
 		</div>
@@ -118,62 +146,107 @@
 	<br><br>
 	
 	<div class="container">
-		<div class="row">
-			<div class="col col-md-6">
-				<div class="card text-center bg-light" style="height:100%;">
-					<img src="Photos\Domain Icons\Technical.png" class="card-img-top carddomains mx-auto d-block" alt="technical domain">
-					<div class="card-body">
-						<h5 class="card-title">Technical</h5>
-						<p class="card-text">The technical team focuses on the sustainable development, which in turn will have a greater impact on the environment and will help out in reducing the pollution 
-											 factor in the world by innovating or modifying or applying the old technologies in a better and efficient way.
-						</p>
+		<div class="row justify-content-center">
+			<div class="col col-xs-12 col-md-6 col-lg-6">
+				<div class="card text-center bg-light the-card" style="height:100%;">
+					<div class="the-front">
+						<br>
+						<img src="Photos\Domain Icons\Technical.png" class="card-img-top carddomains mx-auto d-block" alt="technical domain">
+						<div class="card-body">
+							<h5 class="card-title" style="font-size:400%">Technical</h5>
+						</div>
+					</div>
+					<div class="the-back">
+						<img src="Photos\Domain Icons\Technical.png" class="card-img-top carddomains mx-auto d-block" alt="technical domain">
+						<div class="card-body">
+							<h5 class="card-title">Technical</h5>
+							<p class="card-text">The technical team focuses on the sustainable development, which in turn will have a greater impact on the environment and will help out in reducing the pollution 
+												 factor in the world by innovating or modifying or applying the old technologies in a better and efficient way.
+												 <a href= "http://asmesrm.com/technology.html" class="button" target="_balnk">See More</a>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col col-md-6">
-				<div class="card text-center bg-light" style="height:100%;">
-					<img src="Photos\Domain Icons\Publicity.png" class="card-img-top carddomains2 mx-auto d-block" alt="technical domain">
-					<div class="card-body">
-						<h4 class="card-title">Publicity</h4>
-						<p class="card-text">Publicity domain in ASME-SRM Student Section helps members grow and
-   											 enhance their skills and learn how to showcase them through a 
-											 proper channel. An individual learns and sharpens his/her 
-											 communication,creativity and learns to build 
-											 public relations with co-operate ethics.</p>
+			<div class="col col-xs-12 col-md-6 col-xl-6">
+				<div class="card text-center bg-light the-card" style="height:350px;">
+					<div class="the-front">
+						<br>
+						<img src="Photos\Domain Icons\Publicity.png" class="card-img-top carddomains2 mx-auto d-block" alt="technical domain">
+						<div class="card-body">
+							<h4 class="card-title" style="font-size:400%">Publicity</h4>
+						</div>
+					</div>
+					<div class="the-back">
+						
+						<img src="Photos\Domain Icons\Publicity.png" class="card-img-top carddomains2 mx-auto d-block" alt="technical domain">
+						<div class="card-body">
+							<h4 class="card-title">Publicity</h4>
+							<p class="card-text">Publicity domain in ASME-SRM Student Section helps members grow and
+												 enhance their skills and learn how to showcase them through a 
+												 proper channel. An individual learns and sharpens his/her 
+												 communication,creativity and learns to build 
+												 public relations with co-operate ethics.
+												 <a href= "http://asmesrm.com/publicity.html" class="button" target="_balnk">See More</a>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<div class="container">
 		<br>
 		<div class="row">
-			<div class="col col-md-6">
-				<div class="card text-center bg-light"  style="height:100%;">
-					<img src="Photos\Domain Icons\Public Relation.png" class="card-img-top carddomains mx-auto d-block" alt="technical domain">
-					<div class="card-body">
-						<h4 class="card-title">Events</h4>
-						<p class="card-text">Providing the best skill development and career development platform by conducting various
+			<div class="col col-xs-12 col-md-6 col-xl-6">
+				<div class="card text-center bg-light the-card"  style="height:350px;">
+					<div class="the-front">
+					<br>
+						<img src="Photos\Domain Icons\Public Relation.png" class="card-img-top carddomains mx-auto d-block" alt="technical domain">
+						<div class="card-body">
+							<h4 class="card-title" style="font-size:400%">Events</h4>
+						</div>
+					</div>
+					<div class="the-back">
+						<img src="Photos\Domain Icons\Public Relation.png" class="card-img-top carddomains mx-auto d-block" alt="technical domain">
+						<div class="card-body">
+							<h4 class="card-title">Events</h4>
+							<p class="card-text">Providing the best skill development and career development platform by conducting various
 											 workshops,lectures and Technical Visits,Event Management  Domain of ASME-SRM  Student Section
                                              has shown some remarkable activities in recent times.
-						</p>
+											 <a href= "Events.html" class="button" target="_balnk">See More</a>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col col-md-6">
-				<div class="card text-center bg-light" style="height:100%;">
-					<img src="Photos\Domain Icons\Events.png" class="card-img-top carddomains mx-auto d-block" alt="technical domain">
-					<div class="card-body">
-						<h5 class="card-title">Public Relations</h5>
-						<p class="card-text">Public Relation focuses on developing a strong industry network,
+			<div class="col col-xs-12 col-md-6 col-xl-6">
+				<div class="card text-center bg-light the-card" style="height:100%;">
+					<div class="the-front">
+						<br>
+						<img src="Photos\Domain Icons\Events.png" class="card-img-top carddomains mx-auto d-block" alt="technical domain">
+						<div class="card-body">
+							<h5 class="card-title" style="font-size:400%">Public Relations</h5>
+						</div>
+					</div>
+					<div class="the-back">
+						<img src="Photos\Domain Icons\Events.png" class="card-img-top carddomains mx-auto d-block" alt="technical domain">
+						<div class="card-body">
+							<h5 class="card-title">Public Relations</h5>
+							<p class="card-text">Public Relation focuses on developing a strong industry network,
 											 increasing awareness and building an enviable corporate 
 											 image by developing and executing effective communication and media relations programs.
-						</p>
+											 <a href= "http://asmesrm.com/pr.html" class="button" target="_balnk">See More</a>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<br>
 		<div class="row">
-			<div class="col col-md-6" style="max-height:1000px;">
+			<div class="col col-xs-12 col-md-6" style="max-height:1000px;">
 				<div class="card text-center" style="border: none;">
 					<div class="card-body">
 						<h4 class="card-title news"><b>NEWS</b></h4>
@@ -203,7 +276,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col col-md-6">
+			<div class="col col-md-6 col-xs-12">
 				<div class="card text-center" style="border: none;">
 					<div class="card-body">
 						<h5 class="card-title news justify-center"><b>MEDIA</b></h5>

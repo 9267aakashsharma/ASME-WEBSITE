@@ -3,13 +3,10 @@
 <head>
 	<title>ASMESRM</title>
   <meta charset="utf-8">
-  <link rel="icon" type="image/png" sizes="32x32" href="Photos/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Photos/site icon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	
+</head>
 
 <body>
 
@@ -19,8 +16,8 @@
 				<a href="#"><img src="Photos/favicon.png" style="max-width:100%;" alt="ASMESRM"></a>
 			</div>
 			<div class="col col-lg-8">
-				<h2 class="text-center Named">ASME SRM STUDENT SECTION</h2>
-				<h2 class="text-center Named bordbot">SRM INSTITUTE OF SCIENCE AND TECHNOLOGY</h2>
+				<h2 class="text-center Named2">ASME SRM STUDENT SECTION</h2>
+				<h2 class="text-center Named2 bordbot">SRM INSTITUTE OF SCIENCE AND TECHNOLOGY</h2>
 			</div>
 			<div class="col col-lg-2">
 				<a href="#" class="ml-auto" style="float: right; margin-right: 30px;"><img src="Photos/SRMlogo.png" alt="SRMIST"></a>
@@ -30,18 +27,31 @@
 	
 	
 	<nav class="navbg navbar-expand-lg navbar-dark container-fluid sticky-top">                     
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse container-fluid" id="navbarNavAltMarkup">
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
 				<a class="nav-item nav-link navfour" href="index.html">Home <span class="sr-only">(current)</span></a> &nbsp &nbsp &nbsp &nbsp
 				<a class="nav-item nav-link navtwo" href="Events.html">Events</a>&nbsp &nbsp &nbsp &nbsp
 				<a class="nav-item nav-link navtwo" href="Gallery.html">Gallery</a>&nbsp &nbsp &nbsp &nbsp
 				<a class="nav-item nav-link navone" href="#">Sponsorship</a>&nbsp &nbsp &nbsp &nbsp
-				<a class="nav-item nav-link navone" href="#">Shop ASME</a>&nbsp &nbsp &nbsp &nbsp
-				<a class="nav-item nav-link navthree" href="#">About</a>&nbsp &nbsp &nbsp &nbsp
-				<a class="nav-item nav-link active navfour" href="Team.html">Team</a>&nbsp &nbsp
+				<div class="dropdown nav-box">
+					  <a class="btn nav-item nav-link navfive dropdown-toggle text-left" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Shop ASME
+					  </a>
+
+					  <div class="dropdown-menu nav-dropping" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="https://www.asme.org/shop/standards">Standards</a>
+						<a class="dropdown-item" href="https://www.asme.org/shop/certification-accreditation">Certifications</a> 
+					    <a class="dropdown-item" href="https://www.asme.org/shop/courses">Courses</a>     
+					    <a class="dropdown-item" href="https://www.asme.org/shop/journals">Journals</a>     
+					    <a class="dropdown-item" href="https://www.asme.org/shop/proceedings">Proceeding</a>  
+					    <a class="dropdown-item" href="https://www.asme.org/shop/books">Books</a>  
+			 		    <a class="dropdown-item" href="https://www.asme.org/shop">Shop All</a> 
+			 		    <a class="dropdown-item" href="https://shop.asme.org/ShoppingCart.cfm?_ga=2.211745493.1114360136.1534516983-1805675306.1534516983">Shop Carts</a>
+					  </div>
+				</div>&nbsp &nbsp &nbsp &nbsp<a class="nav-item nav-link active navfour" href="Team.html">Team</a>&nbsp &nbsp
 				<!--<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
 			</div>
 		</div>
@@ -51,7 +61,7 @@
 	  <div class="card border-0">
 		<div class="card-header border-0 clrs" id="headingOne">
 		  <h2 class="mb-0">
-			<button class="btn team-btn-size text-center" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			<button class="btn team-btn-size text-center" id="button-drop4" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 			  <h2 class="latest-events team-drop">FACULTY</h2>
 			  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
 					3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
@@ -121,10 +131,9 @@
 							  </div>
 						</div>
 					</div>
-					<img src="Photos/LUsmall.jpg" class="team-img-return">
 				  </div>				  
 			  </div>
-			  <img src="Photos/DDsmall.png" class="team-img">
+			  <img id="drops4" src="Photos/DDsmall.png" class="team-img">
 			</button>
 		  </h2>
 		</div>
@@ -135,7 +144,7 @@
 	  <div class="card border-0">
 		<div class="card-header border-0 clrs" id="headingTwo">
 		  <h2 class="mb-0">
-			<button class="btn team-btn-size text-center collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			<button class="btn team-btn-size text-center collapsed" id="button-drop3" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 			  <h2 class="latest-events  team-drop">LEADS</h2>
 			   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
 					3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
@@ -204,10 +213,9 @@
 								</div>
 							  </div>
 						</div>
-						<img src="Photos/LUsmall.jpg" class="team-img-return">
 				  </div>
 			  </div>
-			  <img src="Photos/DDsmall.png" class="team-img">
+			  <img src="Photos/DDsmall.png" class="team-img" id="drops3">
 			</button>
 		  </h2>
 		</div>
@@ -218,7 +226,7 @@
 	  <div class="card border-0">
 		<div class="card-header border-0 clrs" id="headingThree">
 		  <h2 class="mb-0">
-			<button class="btn team-btn-size text-center" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			<button class="btn team-btn-size text-center" id="button-drop2" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 			  <h2 class="latest-events team-drop">CORE TEAM</h2>
 			  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
 					3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
@@ -298,10 +306,10 @@
 								</div>
 							  </div>
 						</div>
-						<img src="Photos/LUsmall.jpg" class="team-img-return">
+						
 			      </div>
 				 </div>
-			  <img src="Photos/DDsmall.png" class="team-img">
+				<img id="drops2" src="Photos/DDsmall.png" class="team-img">
 			</button>
 		  </h2>
 		</div>
@@ -312,7 +320,7 @@
 	  <div class="card border-0">
 		<div class="card-header border-0 clrs" id="headingFour">
 		  <h2 class="mb-0">
-			<button class="btn team-btn-size text-center" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+			<button class="btn team-btn-size text-center" id="button-drop1" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
 			  <h2 class="latest-events  team-drop">TECHNICAL TEAM</h2>
 			   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
 					3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
@@ -367,10 +375,9 @@
 								</div>
 							  </div>
 						</div>
-						<img src="Photos/LUsmall.jpg" class="team-img-return">
 			      </div>
 			  </div>
-			  <img src="Photos/DDsmall.png" class="team-img">
+			  <img  id="drops1" src="Photos/DDsmall.png" class="team-img">
 			</button>
 		  </h2>
 		</div>
@@ -386,3 +393,24 @@
 		<img src="Photos/Clockwork.png" class="footer-event">
 	</div>	
     
+	
+	
+	
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/google-map.js"></script>
+<script src="main.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
