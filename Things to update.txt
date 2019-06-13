@@ -1,9 +1,9 @@
-1- Footer - background
-2- Mobile view - WHY ASME
-3- Navbar - Team Tab
-4- Events page - Header - Add links to ASME and SRM LOGOs
-5- Events Page - Events list - Add top and bottom margin the list
-6- Team page - Header - Add links to ASME and SRM LOGOs
+1-
+2-
+3-
+4-
+5-
+6-
 7- Check fonts and font styles
 8- Get latest photos and content for the page.
-9- Replace old ASME LOGOs with the new ones.
+9-
