@@ -152,12 +152,240 @@
 	  border-bottom-color: red;
   }
   
+  .mb-bg{
+	  background-image:linear-gradient(to bottom, #183c56, #183c56, transparent);
+	  background-size: cover;
+	  background-attachment: fixed;
+  }
+  
+  .mb-bg2{
+	  background-image:linear-gradient(to bottom, #183c56, #183c56, #183c56, transparent);
+	  background-size: cover;
+	  background-attachment: fixed;
+  }
+  
+  .Named2-mb{
+	  color:#107eaf;
+	  font-weight:;
+	  font-size: 400%;
+	  font-family: 'Oswald', sans-serif;
+	  
+  }
+  
+  .Named22-mb{
+	  color:#107eaf;
+	  font-weight:;
+	  font-size: 450%;
+	  font-family: 'Oswald', sans-serif;
+	  
+  }
+  
+  .caro-image{
+	  width:60%;
+	  height:45%; 
+	  position:absolute; 
+	  background-color: #e1f2ff; 
+	  padding:1%; 
+	  border-color: white; 
+	  border-style: solid; 
+	  border-width:15px; 
+	  top:45%; 
+	  left:130%;
+  }
+  
+  .caro-image2{
+	  width:60%;
+	  height:45%; 
+	  position:absolute; 
+	  background-color: #e1f2ff; 
+	  padding:1%; 
+	  border-color: white; 
+	  border-style: solid; 
+	  border-width:15px; 
+	  top:45%; 
+	  left:130%;
+  }
+  
+  .Named21-mb{
+	  color:#183c56;
+	  font-weight:;
+	  font-size: 300%;
+	  font-family: 'Oswald', sans-serif;
+	  
+  }
+  
+  .Named24-mb{
+	  color:#183c56;
+	  font-weight:;
+	  margin-top:0%;
+	  font-size: 300%;
+	  font-family: 'Oswald', sans-serif;
+	  
+  }
+  
+  .Named3-mb{
+	  color:#00bcd4;
+	  font-size: 400%;
+	  font-family:'PT Serif', serif;
+	  font-weight: ;
+	  
+  }
+  
+  .Named4-mb{
+	  color:#00bcd4;
+	  font-size: 500%;
+	  font-family:'PT Serif', serif;
+	  font-weight: ;
+	  
+  }
+  
+  .carousel-mb-bg{
+	  background-image:linear-gradient(to right, #107eaf, #02b3cf);
+	  height:180px;
+	  margin-bottom: 100%;
+  }
+  
+  .carousel-bg{
+	  background-image:url('Photos/Home carousel/ASME 1.jpg');
+	  background-size:cover;
+	  background-position: center;
+	  height:100vh;
+	  display: flex;
+  }
+  
+  .carousel-mb-bg2{
+	  background-image:linear-gradient(to bottom, #02b3cf 40%, #107eaf);
+	  background-size: cover;
+	  background-attachment: fixed;
+	  height:180%;
+	  margin-top: 30%;
+  }
+  
+  .carousel-bg2{
+	  background-image:linear-gradient(to bottom, #02b3cf 40%, #107eaf);
+	  background-size: cover;
+	  background-attachment: fixed;
+	  height:900px;
+	  margin-top:5%;
+  }
+  
+  .carousel-mb-bg2{
+	  background-image:linear-gradient(to bottom, #02b3cf 40%, #107eaf);
+	  background-size: cover;
+	  background-attachment: fixed;
+	  height:180%;
+	  margin-top: 40%;
+  }
+  
+  .carousel-mb-heading{
+	  position: absolute;
+	  color: #107eaf;
+	  left:25%;
+	  top:41%;
+	  font-family: 'Zilla Slab' , sans-serif;
+  }
+  
+  .gallery-mb-head{
+	  color: #107eaf;
+	  font-family: 'Zilla Slab' , sans-serif;
+	  font-size: 300%;
+	  font-weight:999;
+  }
+  
+  .carousel-mb-heading2{
+	  color: white;
+	  background-color: #107eaf;
+	  font-family: 'Zilla Slab' , sans-serif;
+	  width: 80%;
+	  margin-top:15%;
+	  margin-left:10%;
+	  font-weight:999;
+  }
+  
+  .carousel-mb-heading3{
+	  color: white;
+	  background-color: #107eaf;
+	  font-family: 'Zilla Slab' , sans-serif;
+	  width: 80%;
+	  margin-top:15%;
+	  margin-left:10%;
+	  margin-bottom:-10%;
+	  font-weight:999;
+  }
+  
+  .carousel-mb-content{
+	  background-image: url('Photos/Home Carousel/ASME 4.jpg');
+	  background-size: cover;
+	  margin-top:-50%;
+	  margin-bottom:50%;
+	  margin-left:-25%;
+	  margin-right:-20%;
+	  width:129%; height:180%;
+	  filter: blur(8px);
+      -webkit-filter: blur(8px);
+	  z-index:1;
+	}
+	
+	.carousel-mb-text{
+		position: absolute;
+		margin-top:-73vh;
+		margin-left:-4%;
+		font-size:130%;
+		color: #fff; 
+		font-family: 'Zilla Slab' , sans-serif;
+		font-weight:999;
+		z-index:2;
+	}
+  
+  .footer-mb{
+	  background-image: url("Photos/sq4s.jpg");
+	  background-size: cover;
+	  background-attachment: fixed;
+	  background-position: left top;
+	  height:110%
+  }
+  
+    .footer{
+	  background-image: url("Photos/Bokeh.jpg");
+	  background-size:;
+	  width: 99vw;
+	  background-attachment: fixed;
+	  background-position: left top;
+	  height:stretch;
+  }
+  
+  .footer-head1-mb{
+	  font-size: 210%;
+	  color: white;
+	  font-weight:999;
+	  font-family:  'Zilla Slab' , sans-serif;
+  }
+  
+  .footer-head2-mb{
+	  font-size: 200%;
+	  color: white;
+	  font-weight:999;
+	  font-family:  'Zilla Slab' , sans-serif;
+  }
+  
+  .footer-content-mb{
+	  font-size: 125%;
+	  color: white;
+	  font-family:  'Zilla Slab' , sans-serif;
+  }
+  
   .textcar{
 	  background-color: #183c56;
   }
   
   .navone{
 	  font-size:150%;
+  }
+  
+  .revone{
+	  font-size:100%;
+	  margin-top:-2%;
+	  margin-bottom:0%;
   }
   
   .navfive{
@@ -170,6 +398,26 @@
 	  margin-left:-2%;
 	  margin-right:-2.2%;
 	  margin-bottom: -1%;
+  }
+  
+  .revfive{
+	  font-size:100%;
+ 	  margin-top:-2%;
+	  margin-bottom:0%;
+  }
+  
+  .revfive:hover{
+      margin-top:2%;
+	  margin-left:-2%;
+	  margin-right:-2.2%;
+	  margin-bottom:0%;
+	  
+  }
+  
+  .reverfive:hover{
+	  font-size: 120%;
+	  margin-top:-8%;
+	  margin-bottom:-3%;
   }
   
   .nav-box:hover{
@@ -192,6 +440,19 @@
 	  margin-bottom: -5%;
   }
   
+  .revtwo{
+	  font-size:100%;
+	  margin-top:-2%;
+	  }
+  
+  .revtwo:hover{
+	  font-size: 150%;
+      margin-top:-3%;
+	  margin-left:-1.8%;
+	  margin-right:-1.8%;
+	  margin-bottom: -5%;
+  }
+  
   .navone:hover{
 	  font-size: 200%;
       margin-top:-1%;
@@ -206,10 +467,43 @@
   }
 
   
+  .revone:hover{
+	  font-size: 150%;
+      margin-top:-3%;
+	  margin-left:-2.2%;
+	  margin-right:-4%;
+	  margin-bottom: -5%;
+  }
+  
+  .caro2-whyasme{
+	  margin-left:25%; 
+	  margin-top:30%;
+	  color: #183c56;
+	  font-family: 'Oswald', sans-serif;
+	  font-weight:999;
+	  font-size: 300%;
+  }
+  
+  .caro2-reason{
+	  margin-left:25%;
+	  margin-top: 5%;	  
+	  color: silver;
+	  width:60%;
+	  font-family: 'Oswald', sans-serif;
+	  font-weight:;
+	  font-size: 150%;
+  }
+  
   .nav-dropping{
 	  background-image:linear-gradient(to right, #02b3cf, transparent);
 	  border:none;
 	  width:100%;
+  }
+  
+  .bgh{
+	  background-image: url("Photos/Gallerybg2.png");
+	  background-size: cover;
+	  background-attachment: fixed;
   }
   
   .whyasme{
@@ -268,10 +562,34 @@
 	 font-family: "Open Sans","Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
   
+  .op-img:hover{
+	  opacity:0.5;
+	  transition-duration: 0.4s;
+  }
+  
+  .op-img{
+	  opacity:1;
+	  transition-duration: 0.4s;
+  }
+  
   .ourdomain{
 	  color: #183c56;
 	  font-size: 450%;
-	  font-family: "Segoe UI";
+	  font-family: 'Oswald', sans-serif;
+	  background-color: #00bcd4;
+	  border-width:15px;
+	  border-color: white;
+	  border-style: solid;
+  }
+  
+  .ourdomain2{
+	  color: #183c56;
+	  font-size: 100%;
+	  font-family: 'Oswald', sans-serif;
+	  background-color: #00bcd4;
+	  border-width:15px;
+	  border-color: white;
+	  border-style: solid;
   }
 	  
   .carddomains{
@@ -325,7 +643,8 @@
   
   .reach{
 	  font-family: "Segoe UI";
-	  color:#183c56;
+	  color:white;
+	  font-weight:999;
   }
   
   .latest-events{
@@ -338,6 +657,13 @@
 	background: url(Photos/FingerBullet.png) no-repeat 350px top; 
 	height: 54px; 
 	padding-left: 394px; 
+	padding-top: 1px;  
+  }
+  
+  .latest-points2{
+	background: url(Photos/FingerBullet.png) no-repeat 10px top; 
+	height: 54px; 
+	padding-left: 15%; 
 	padding-top: 1px;  
   }
   
@@ -355,7 +681,6 @@
 	border-color: #00bcd4;
 	height: 200px;
 	width: 200px;
-	margin-left:32%;
 	margin-top:20px;
   }
   
@@ -405,11 +730,6 @@
 	  text-decoration:none;
   }
   
-  .team-drop{
-	  text-decoration: none;
-	  
-  }
-  
   .team-btn-size{
 	  width:100%;
 	  text-decoration:none;
@@ -455,10 +775,22 @@
   }
   
   .navfour:hover{
-	  font-size: 200%;
-      margin-top:-1%;
-	  margin-left:-1.0%;
-	  margin-right:-1.4%;
+	  font-size:200%;
+	  margin-top:-1%;
+	  margin-bottom:-1%;
+	  margin-left:-1%;
+  }
+  
+  .revfour{
+	  font-size:100%;
+	  margin-top:-2%;
+  }
+  
+  .revfour:hover{
+	  font-size: 150%;
+      margin-top:-3%;
+	  margin-left:-1.2%;
+	  margin-right:-2%;
 	  margin-bottom: -5%;
   }
   
@@ -501,6 +833,7 @@
 	  height:100%;
 	  transform-style: preserve-3d;
 	  transition: all 1s ease;
+	  
   }
   
   .the-card:hover{
@@ -508,9 +841,10 @@
   }
   
   .the-front{
-	  position: absolute;
+	  
 	  width:100%;
 	  height:100%;
+	  margin-bottom:20%;
 	  backface-visibilty: hidden;
   }
   
@@ -518,11 +852,244 @@
 	  position: absolute;
 	  width:100%;
 	  height:100%;
+	  margin-bottom:20%;
 	  backface-visibilty: hidden;
 	  background: #e9ecef;
 	  transform: rotateY(180deg);
   }
+  
+  .gallery-gear1{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:5.5%;
+	  top:18%;
+  }
+  .gallery-mb-gear1{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:12.5%;
+	  top:0%;
+  }
+  
+  .gallery-gear2{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:11%;
+	  top:11.5%;
+  }
+  
+  .gallery-mb-gear2{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:-2%;
+	  top:0%;
+  }
+  
+  .gallery-gear3{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:-0.5%;
+	  top:5.5%;
+  }
+  
+  .gallery-mb-gear3{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:12.5%;
+	  top:-25%;
+	  
+  }
+  
+  .mb-photos{
+	  height:200px;;
+	  width:100%;
+  }
+  
+  .gallery-gear4{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:5.5%;
+	  top:2%;
+  }
+  
+  .gallery-mb-gear4{
+	  position:absolute;
+	  color:White;
+	  font-size:95%;
+	  left:-2%;
+	  top:-25%;
+	  margin-right:;
+  }
+  
+  .gallery-rotate{
+		animation: rotation 5s infinite linear;
+  }
 
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+.gallery-rotate-alt{
+		-webkit-transform: rotate(10deg);
+		animation: swif 5s infinite linear;
+  }
+
+@-webkit-keyframes swif {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(-359deg);
+		}
+}
+
+.gallery{
+	margin-top:40vh;
+	margin-bottom:13%;
+	font-size:550%;
+	font-family: 'Prompt', sans-serif;
+	font-weight: 999;
+	color: WHITE;
+	
+}
+
+@media (max-width: 1590px){
+  .caro-image{
+	height:52%;
+	top:35%;
+  }
+}
+@media (max-width: 1690px){
+	.caro-image2{
+	height:55%;
+	top:40%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .oldevents-mb{
+	  width:20%; 
+	  margin-left:-15%;
+	  margin-top:%;
+	  
+  }
+  
+  .oldevents-text-mb{
+	  font-size:85%;
+	  margin-top:%;
+  }
+  
+  .oldevents2-text-mb{
+	  font-size:75%;
+  }
+  
+  .event-head{
+	border: solid;
+	border-radius: 100px;
+	border-color: #00bcd4;
+	height: 150px;
+	width: 150px;
+	margin-left:28%;
+	margin-top:20px;
+  }
+  
+  .footer-event{
+      max-height: 80%;
+	  width:109%;
+	  margin-left:-15px;
+	  margin-bottom:-10%;
+  }
+  
+    .faculty-img{
+	  max-height: 150px;
+	  max-width: 150px;
+	  margin-left:23%;
+	  border: solid;
+      border-radius: 300px;
+	  border-color: #00bcd4;
+	  margin-top:20px;
+  }
+  
+  .faculty-img2{
+	  max-height: 150px;
+	  max-width: 150px;
+	  margin-left:25%;
+	  border: solid;
+      border-radius: 300px;
+	  border-color: #00bcd4;
+	  margin-top:20px;
+  }
+  
+    .faculty-style{
+	  width:90%; 
+	  height:100%;
+	  margin-left:5%;
+  }
+  
+    .latest-events{
+	  font-size: 300%;
+  }
+  
+  .mb-photos{
+	  height:80px;
+	  width:100%;
+  }
+  
+  .gallery-mb-head{
+	  color: #107eaf;
+	  font-family: 'Zilla Slab' , sans-serif;
+	  font-size: 180%;
+	  font-weight:999;
+  }
+  
+  .gallery-rotate{
+		animation: rotation 5s infinite linear;
+  }
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+.gallery-rotate-alt{
+		-webkit-transform: rotate(10deg);
+		animation: swif 5s infinite linear;
+  }
+
+@-webkit-keyframes swif {
+		from {
+				-webkit-transform: rotate(10deg);
+		}
+		to {
+				-webkit-transform: rotate(-349deg);
+		}
+}
+
+.Named2-mb{
+	  color:#00bcd4;
+	  font-size: 200%;
+	  font-family: 'Zilla Slab' , sans-serif;
+	  
+  }
+
+}
 
 
 
