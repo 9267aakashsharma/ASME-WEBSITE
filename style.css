@@ -1084,6 +1084,35 @@
 
 }
 
+@media (max-width:800px){
+	.navone:hover{
+	  font-size: 150%;
+      margin-top:0%;
+	  margin-left:0%;
+	  margin-right:0%;
+	  margin-bottom: 0%;
+  }
+  .navtwo:hover{
+	  font-size: 150%;
+      margin-top:0%;
+	  margin-left:0%;
+	  margin-right:0%;
+	  margin-bottom:0%;
+  }
+  .navfour:hover{
+	  font-size:150%;
+	  margin-top:0%;
+	  margin-bottom:0%;
+	  margin-left:0%;
+  }
+  .navfive:hover{
+	  font-size: 100%;
+	  margin-left:0%;
+	  margin-right:0%;
+	  margin-bottom:0%;
+  }
+}
+
 
 
 
