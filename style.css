@@ -338,7 +338,7 @@
 	}
   
   .footer-mb{
-	  background-image: url("Photos/sq4s.jpg");
+	  background-image: url("Photos/Bokeh.jpg");
 	  background-size: cover;
 	  background-attachment: fixed;
 	  background-position: left top;
@@ -361,16 +361,27 @@
 	  font-family:  'Zilla Slab' , sans-serif;
   }
   
+  .footer-contact-mb{
+	background-color:black;
+	opacity:0.5;
+	height:60vh;
+  }
+  
   .footer-head2-mb{
 	  font-size: 200%;
+	  position: relative;
 	  color: white;
+	  top:-53vh;
 	  font-weight:999;
 	  font-family:  'Zilla Slab' , sans-serif;
   }
   
   .footer-content-mb{
 	  font-size: 125%;
+	  position: relative;
+	  top:-53vh;
 	  color: white;
+	  margin-bottom:-200px;
 	  font-family:  'Zilla Slab' , sans-serif;
   }
   
