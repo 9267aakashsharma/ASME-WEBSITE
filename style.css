@@ -1058,7 +1058,20 @@
 	  font-family: 'Zilla Slab' , sans-serif;
 	  
   }
+}
 
+@media (max-width:750px){
+	.in-barhead-mb{
+		margin-left:15%;
+	}
+	
+	.in-bar-mb{
+		margin-left:35%;
+	}
+	
+	.in-bar2-mb{
+		margin-right:-35%;
+	}
 }
 
 
