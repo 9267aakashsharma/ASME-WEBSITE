@@ -245,7 +245,7 @@
   }
   
   .carousel-bg{
-	  background-image:url('Photos/Home carousel/ASME 1.jpg');
+	  background-image:url('Photos/Home carousel/ASME1.jpg');
 	  background-size:cover;
 	  background-position: center;
 	  height:100vh;
@@ -314,7 +314,7 @@
   }
   
   .carousel-mb-content{
-	  background-image: url('Photos/Home Carousel/ASME 4.jpg');
+	  background-image: url('Photos/Home Carousel/ASME4.jpg');
 	  background-size: cover;
 	  margin-top:-50%;
 	  margin-bottom:50%;
