@@ -701,6 +701,11 @@
 	  font-family: "Segoe UI";
   }
   
+  .stem{
+	  color: #183c56;
+	  font-weight: 999;
+  }
+  
   .image-gallery{
   position:relative;  
   margin:0 auto;
