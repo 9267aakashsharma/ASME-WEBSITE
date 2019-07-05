@@ -347,11 +347,9 @@
   
     .footer{
 	  background-image: url("Photos/Bokeh.jpg");
-	  background-size:;
-	  width: 99vw;
-	  background-attachment: fixed;
+	  background-attachment: cover;
 	  background-position: left top;
-	  height:stretch;
+	  height:100%;
   }
   
   .footer-head1-mb{

@@ -310,7 +310,11 @@
 					<div class="card-body">
 						<h5 class="card-title news justify-center"><b>MEDIA</b></h5>
 						<div class="embed-responsive embed-responsive-16by9 content">
-							<iframe class="embed-responsive-item" width="560" height="315" src="Photos/video.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<!-- <iframe class="embed-responsive-item" width="560" height="315" src="Photos/video.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen preload="none"></iframe> -->
+							<video width="560" height="315" controls="controls" type="video/mp4" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" poster="Photos/gallery/g1.jpg" preload="none">
+								<source src="Photos/video.mp4" autostart="false">
+									Your browser does not support the video tag.
+							</video>
 						</div>
 					</div>
 				</div>
