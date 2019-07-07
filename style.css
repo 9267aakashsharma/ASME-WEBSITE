@@ -383,6 +383,17 @@
 	  font-family:  'Zilla Slab' , sans-serif;
   }
   
+  .gal-img:hover{
+	  box-shadow: 10px 10px 150px 10vh black;
+	  z-index: 2 !important;
+	  width:100%;
+	  transition-duration: 0.3s;
+  }
+  
+  .top-gal{
+	  z-index:10;
+  }
+  
   .textcar{
 	  background-color: #183c56;
   }

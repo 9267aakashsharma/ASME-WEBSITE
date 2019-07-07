@@ -214,6 +214,15 @@ button4.onclick = function(){
 
 
 
+function myFunc(){
+    $('#r1, #r2, #r3, #r4, #r5, #r6, #r7, #r8, #r9, #r10, #r11, #r12, #r13').addClass("gal-img");
+  };
+ 
+function myFuncReturn(){
+    $('#r1, #r2, #r3, #r4, #r5, #r6, #r7, #r8, #r9, #r10, #r11, #r12, #r13').removeClass("gal-img");
+  };
+
+
 
 // const buttu= document.querySelectorAll('.buttu');
 // buttu.forEach(function(thisbut){
