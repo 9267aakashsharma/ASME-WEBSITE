@@ -384,7 +384,7 @@
   }
   
   .gal-img:hover{
-	  box-shadow: 10px 10px 150px 10vh black;
+	  box-shadow: 10px 10px 150px 5vh black;
 	  z-index: 2 !important;
 	  width:100%;
 	  transition-duration: 0.3s;
